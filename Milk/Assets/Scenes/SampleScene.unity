@@ -587,8 +587,6 @@ GameObject:
   m_Component:
   - component: {fileID: 847247223}
   - component: {fileID: 847247222}
-  - component: {fileID: 847247221}
-  - component: {fileID: 847247220}
   - component: {fileID: 847247235}
   - component: {fileID: 847247234}
   - component: {fileID: 847247233}
@@ -599,8 +597,6 @@ GameObject:
   - component: {fileID: 847247228}
   - component: {fileID: 847247227}
   - component: {fileID: 847247226}
-  - component: {fileID: 847247224}
-  - component: {fileID: 847247225}
   - component: {fileID: 847247236}
   - component: {fileID: 847247242}
   - component: {fileID: 847247241}
@@ -703,6 +699,7 @@ GameObject:
   - component: {fileID: 847247303}
   - component: {fileID: 847247302}
   - component: {fileID: 847247301}
+  - component: {fileID: 847247220}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -722,35 +719,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 847247221}
+  parentBlock: {fileID: 847247235}
   waitForFrames: 1
---- !u!114 &847247221
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847247219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 123.72662
-    y: 27.492737
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: Game Start
-  description: 
-  eventHandler: {fileID: 847247220}
-  commandList:
-  - {fileID: 847247224}
-  - {fileID: 847247225}
 --- !u!114 &847247222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,11 +734,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 670.9891, y: 61.584084}
+  scrollPos: {x: 907.4127, y: -56.97852}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.54999995
+  zoom: 0.51049995
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -805,56 +775,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &847247224
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847247219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 11
-  indentLevel: 0
-  text: Start game
-  description: 
-  targetBlock: {fileID: 847247235}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &847247225
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847247219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 0
-  text: End game
-  description: 
-  targetBlock: {fileID: 0}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &847247226
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1076,7 +996,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 320.94028
     y: 121.15428
-    width: 162.72728
+    width: 154.47275
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1101,7 +1021,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 103.4328
     y: 121.70814
-    width: 151.81819
+    width: 145.33139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1135,14 +1055,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: -158.72353
     y: 126.095955
-    width: 148.18182
+    width: 140.10774
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 1
   blockName: Room A pre-milk
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 847247220}
   commandList:
   - {fileID: 847247265}
   - {fileID: 847247236}
@@ -1421,7 +1341,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -80.50013
     y: 256.29828
-    width: 137.27274
+    width: 129.66046
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1776,7 +1696,7 @@ MonoBehaviour:
   itemId: 36
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 847247221}
+  targetBlock: {fileID: 847247235}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -3770,7 +3690,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 16.071167
     y: 175.94319
-    width: 120.909096
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
