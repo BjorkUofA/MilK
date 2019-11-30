@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Fungus.Block
     - Fungus.BooleanVariable
+    - Fungus.ButtonClicked
     - Fungus.Call
     - Fungus.Character
     - Fungus.Clickable2D
@@ -40,6 +41,7 @@ ScriptsOnlyBuild:
     - Fungus.NarrativeLogMenu
     - Fungus.Parallax
     - Fungus.Portrait
+    - Fungus.Quit
     - Fungus.SaveData
     - Fungus.SaveMenu
     - Fungus.SavePoint
@@ -255,6 +257,39 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 225
       Script: {instanceID: 0}
+    Assets/Scenes/New Scene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 10054}
+    - Class: 114
+      Script: {instanceID: 10306}
+    - Class: 114
+      Script: {instanceID: 10608}
+    - Class: 114
+      Script: {instanceID: 10720}
+    - Class: 114
+      Script: {instanceID: 12262}
+    - Class: 114
+      Script: {instanceID: 12380}
+    - Class: 114
+      Script: {instanceID: 12624}
+    - Class: 114
+      Script: {instanceID: 12728}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
     Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -311,11 +346,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10542}
     - Class: 114
+      Script: {instanceID: 10608}
+    - Class: 114
       Script: {instanceID: 10710}
     - Class: 114
       Script: {instanceID: 10720}
     - Class: 114
       Script: {instanceID: 10806}
+    - Class: 114
+      Script: {instanceID: 10866}
     - Class: 114
       Script: {instanceID: 10906}
     - Class: 114
@@ -2265,4 +2304,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/New Scene.unity
   playerPath: C:/Users/bofen/Desktop/Prototype/MilK.exe
