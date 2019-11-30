@@ -39,8 +39,10 @@ ScriptsOnlyBuild:
     - Fungus.MenuDialog
     - Fungus.NarrativeLogMenu
     - Fungus.Parallax
+    - Fungus.Portrait
     - Fungus.SaveData
     - Fungus.SaveMenu
+    - Fungus.SavePoint
     - Fungus.Say
     - Fungus.SayDialog
     - Fungus.SelectOnEnable
@@ -268,6 +270,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -285,27 +291,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10072}
     - Class: 114
+      Script: {instanceID: 10164}
+    - Class: 114
       Script: {instanceID: 10212}
+    - Class: 114
+      Script: {instanceID: 10232}
+    - Class: 114
+      Script: {instanceID: 10260}
+    - Class: 114
+      Script: {instanceID: 10266}
     - Class: 114
       Script: {instanceID: 10306}
     - Class: 114
       Script: {instanceID: 10400}
     - Class: 114
+      Script: {instanceID: 10402}
+    - Class: 114
       Script: {instanceID: 10502}
+    - Class: 114
+      Script: {instanceID: 10542}
     - Class: 114
       Script: {instanceID: 10710}
     - Class: 114
       Script: {instanceID: 10720}
     - Class: 114
+      Script: {instanceID: 10806}
+    - Class: 114
       Script: {instanceID: 10906}
     - Class: 114
       Script: {instanceID: 10976}
     - Class: 114
+      Script: {instanceID: 11050}
+    - Class: 114
       Script: {instanceID: 11076}
+    - Class: 114
+      Script: {instanceID: 11302}
+    - Class: 114
+      Script: {instanceID: 11390}
+    - Class: 114
+      Script: {instanceID: 11466}
+    - Class: 114
+      Script: {instanceID: 11520}
     - Class: 114
       Script: {instanceID: 11680}
     - Class: 114
       Script: {instanceID: 11728}
+    - Class: 114
+      Script: {instanceID: 11736}
     - Class: 114
       Script: {instanceID: 11902}
     - Class: 114
@@ -325,6 +357,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12398}
     - Class: 114
+      Script: {instanceID: 12422}
+    - Class: 114
       Script: {instanceID: 12470}
     - Class: 114
       Script: {instanceID: 12526}
@@ -337,7 +371,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12640}
     - Class: 114
+      Script: {instanceID: 12650}
+    - Class: 114
       Script: {instanceID: 12728}
+    - Class: 114
+      Script: {instanceID: 12800}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -353,6 +391,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
