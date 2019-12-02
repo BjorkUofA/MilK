@@ -2,7 +2,8 @@
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
 
 using UnityEditor;
-
+using UnityEngine;
+using UnityEngine.SceneManagement;
 namespace Fungus.EditorUtils
 {
     public class SaveMenuItems 
@@ -17,6 +18,11 @@ namespace Fungus.EditorUtils
         static void CreateSaveData()
         {
             FlowchartMenuItems.SpawnPrefab("SaveData");
+        }
+
+        public void QuitGame()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
     }
 }

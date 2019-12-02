@@ -318,6 +318,10 @@ namespace Fungus
         }
 
         #endregion
+        public void QuitGame()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }
 
