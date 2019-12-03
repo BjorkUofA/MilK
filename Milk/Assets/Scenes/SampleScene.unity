@@ -6853,8 +6853,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1362686582}
   m_HandleRect: {fileID: 1362686581}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.6660768
+  m_Value: 1
+  m_Size: 0.67955893
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7012,7 +7012,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1286522086}
   m_HandleRect: {fileID: 1286522085}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -8461,7 +8461,6 @@ GameObject:
   - component: {fileID: 847247293}
   - component: {fileID: 847247268}
   - component: {fileID: 847247281}
-  - component: {fileID: 847247271}
   - component: {fileID: 847247270}
   - component: {fileID: 847247269}
   - component: {fileID: 847247292}
@@ -8668,7 +8667,6 @@ GameObject:
   - component: {fileID: 847247557}
   - component: {fileID: 847247556}
   - component: {fileID: 847247555}
-  - component: {fileID: 847247559}
   - component: {fileID: 847247560}
   - component: {fileID: 847247562}
   - component: {fileID: 847247561}
@@ -8683,7 +8681,6 @@ GameObject:
   - component: {fileID: 847247585}
   - component: {fileID: 847247591}
   - component: {fileID: 847247590}
-  - component: {fileID: 847247589}
   - component: {fileID: 847247587}
   - component: {fileID: 847247592}
   - component: {fileID: 847247336}
@@ -8694,7 +8691,6 @@ GameObject:
   - component: {fileID: 847247302}
   - component: {fileID: 847247602}
   - component: {fileID: 847247601}
-  - component: {fileID: 847247603}
   - component: {fileID: 847247604}
   - component: {fileID: 847247610}
   - component: {fileID: 847247609}
@@ -9453,6 +9449,13 @@ GameObject:
   - component: {fileID: 847248253}
   - component: {fileID: 847247496}
   - component: {fileID: 847247494}
+  - component: {fileID: 847247266}
+  - component: {fileID: 847247271}
+  - component: {fileID: 847247559}
+  - component: {fileID: 847247589}
+  - component: {fileID: 847247603}
+  - component: {fileID: 847248273}
+  - component: {fileID: 847248272}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -9510,11 +9513,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1240.681, y: 318.0646}
+  scrollPos: {x: 1570.3011, y: -1428.5315}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 301
-  zoom: 0.3399999
+  zoom: 0.5200001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -9522,9 +9525,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 847247232}
-  selectedCommands:
-  - {fileID: 847247496}
+  - {fileID: 847248272}
+  selectedCommands: []
   variables:
   - {fileID: 847247279}
   - {fileID: 847247267}
@@ -9927,9 +9929,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 97.28191
-    y: 124.61054
-    width: 159.80396
+    x: 96.28191
+    y: 125.67437
+    width: 157.69229
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9970,7 +9972,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -97.94296
     y: -12.45433
-    width: 155.88239
+    width: 153.84613
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10288,6 +10290,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 847247264}
   - {fileID: 847247263}
+  - {fileID: 847247266}
   - {fileID: 847247258}
   - {fileID: 847247250}
 --- !u!114 &847247246
@@ -10306,7 +10309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -80.50013
     y: 257.6184
-    width: 144.11768
+    width: 142.30768
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10454,7 +10457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  text: South-East door
+  text: Go north-east.
   description: 
   targetBlock: {fileID: 847247231}
   hideIfVisited: 0
@@ -10479,7 +10482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  text: South-West door
+  text: Go north-west.
   description: 
   targetBlock: {fileID: 847247232}
   hideIfVisited: 0
@@ -10800,6 +10803,27 @@ MonoBehaviour:
     booleanVal: 0
   affectChildren: 1
   visibleOLD: 0
+--- !u!114 &847247266
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847247219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1293
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 739662907}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &847247267
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10842,7 +10866,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 847247282}
   - {fileID: 847247281}
-  - {fileID: 847247271}
   - {fileID: 847247270}
   - {fileID: 847247269}
 --- !u!114 &847247269
@@ -10859,7 +10882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  text: South-West door
+  text: Go north-west.
   description: 
   targetBlock: {fileID: 847247230}
   hideIfVisited: 0
@@ -10884,7 +10907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  text: South-East door
+  text: Go north-east.
   description: 
   targetBlock: {fileID: 847247229}
   hideIfVisited: 0
@@ -10904,22 +10927,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 847247219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 72
+  itemId: 1296
   indentLevel: 0
-  text: East door
-  description: 
-  targetBlock: {fileID: 847247231}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
+  spriteRenderer: {fileID: 1615021486}
+  _visible:
     booleanRef: {fileID: 0}
     booleanVal: 0
+  affectChildren: 1
+  visibleOLD: 0
 --- !u!114 &847247272
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11159,7 +11177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  text: North door
+  text: Go south-east.
   description: 
   targetBlock: {fileID: 847247234}
   hideIfVisited: 0
@@ -11723,7 +11741,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 847247459}
   - {fileID: 847247352}
-  - {fileID: 847247603}
   - {fileID: 847247350}
   - {fileID: 847247351}
 --- !u!114 &847247302
@@ -12590,7 +12607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -134.66737
+    x: -135.66737
     y: 314.69827
     width: 120
     height: 40
@@ -12601,7 +12618,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 847247559}
   - {fileID: 847247330}
 --- !u!114 &847247332
 MonoBehaviour:
@@ -12644,9 +12660,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -11.210781
-    y: 175.94319
-    width: 126.470604
+    x: -0.3809929
+    y: 205.6028
+    width: 124.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12677,7 +12693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 89
   indentLevel: 2
-  spriteRenderer: {fileID: 1615021486}
+  spriteRenderer: {fileID: 105785432}
   _duration:
     floatRef: {fileID: 0}
     floatVal: 1
@@ -12747,7 +12763,7 @@ MonoBehaviour:
   indentLevel: 0
   duration: 2
   fadeOut: 1
-  targetView: {fileID: 148860304}
+  targetView: {fileID: 739662907}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
@@ -12994,7 +13010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 130
   indentLevel: 0
-  text: East door
+  text: Go north-east.
   description: 
   targetBlock: {fileID: 847247229}
   hideIfVisited: 0
@@ -13019,7 +13035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  text: North door
+  text: Go south-east.
   description: 
   targetBlock: {fileID: 847247232}
   hideIfVisited: 0
@@ -13121,7 +13137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  text: South-East door
+  text: Go north-east.
   description: 
   targetBlock: {fileID: 847247228}
   hideIfVisited: 0
@@ -13146,7 +13162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  text: South-West door
+  text: Go north-west.
   description: 
   targetBlock: {fileID: 847247229}
   hideIfVisited: 0
@@ -13171,7 +13187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 123
   indentLevel: 0
-  text: North door
+  text: Go south-west.
   description: 
   targetBlock: {fileID: 847247234}
   hideIfVisited: 0
@@ -13323,7 +13339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  text: West
+  text: Go north-east.
   description: 
   targetBlock: {fileID: 847247229}
   hideIfVisited: 0
@@ -13348,7 +13364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 147
   indentLevel: 0
-  text: "North\r"
+  text: Go south-west.
   description: 
   targetBlock: {fileID: 847247231}
   hideIfVisited: 0
@@ -13373,7 +13389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 0
-  text: South-East
+  text: Go north-east.
   description: 
   targetBlock: {fileID: 847247226}
   hideIfVisited: 0
@@ -13425,7 +13441,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 400.4839
     y: 853.73114
-    width: 140.1961
+    width: 138.46152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13525,7 +13541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 20.930092
     y: 847.1846
-    width: 161.76474
+    width: 159.61536
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14598,7 +14614,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -132.48721
     y: 818.7618
-    width: 140.1961
+    width: 138.46152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14698,7 +14714,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -612.54364
     y: 819.8878
-    width: 161.76474
+    width: 159.61536
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14776,7 +14792,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -541.7009
     y: 911.90576
-    width: 136.27454
+    width: 134.61537
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14909,9 +14925,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 413.2449
-    y: 130.77487
-    width: 151.96082
+    x: 412.18106
+    y: 131.8387
+    width: 149.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14961,7 +14977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 569.81104
+    x: 570.8749
     y: 173.89719
     width: 120
     height: 40
@@ -15253,7 +15269,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 717.8446
     y: 202.8636
-    width: 130.39218
+    width: 128.84613
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15496,7 +15512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 480
   indentLevel: 0
-  spriteRenderer: {fileID: 1615021486}
+  spriteRenderer: {fileID: 105785432}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -15850,7 +15866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 483
   indentLevel: 0
-  text: East
+  text: Go north-east.
   description: 
   targetBlock: {fileID: 847247228}
   hideIfVisited: 0
@@ -15875,7 +15891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 484
   indentLevel: 0
-  text: West
+  text: Go north-west.
   description: 
   targetBlock: {fileID: 847247230}
   hideIfVisited: 0
@@ -15900,7 +15916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 485
   indentLevel: 0
-  text: North-East
+  text: Go south-east.
   description: 
   targetBlock: {fileID: 847247231}
   hideIfVisited: 0
@@ -15925,7 +15941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 482
   indentLevel: 0
-  text: North-West
+  text: Go south-west.
   description: 
   targetBlock: {fileID: 847247232}
   hideIfVisited: 0
@@ -16846,7 +16862,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -620.8364
     y: 1289.3981
-    width: 122.549034
+    width: 121.15383
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17241,7 +17257,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1563.8416
     y: 1003.7654
-    width: 134.31375
+    width: 132.69229
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18041,6 +18057,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 847247533}
   - {fileID: 847247532}
+  - {fileID: 847248273}
   - {fileID: 847247589}
 --- !u!114 &847247532
 MonoBehaviour:
@@ -18345,7 +18362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 277.64374
+    x: 274.45224
     y: 122.299515
     width: 120
     height: 40
@@ -18357,6 +18374,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 847247580}
+  - {fileID: 847247271}
+  - {fileID: 847247559}
   - {fileID: 847247542}
   - {fileID: 847247541}
 --- !u!114 &847247544
@@ -18792,11 +18811,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 397
+  itemId: 1297
   indentLevel: 0
-  duration: 2
+  duration: 1
   fadeOut: 1
-  targetView: {fileID: 739662907}
+  targetView: {fileID: 148860304}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
@@ -18815,7 +18834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 400
   indentLevel: 0
-  text: South-West door
+  text: Go north-west.
   description: 
   targetBlock: {fileID: 847247227}
   hideIfVisited: 0
@@ -19284,7 +19303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 407
   indentLevel: 0
-  spriteRenderer: {fileID: 1543260052}
+  spriteRenderer: {fileID: 863518563}
   _visible:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -19419,6 +19438,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 847247586}
+  - {fileID: 847247603}
   - {fileID: 847247967}
   - {fileID: 847247968}
   - {fileID: 847247969}
@@ -19530,18 +19550,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 847247219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 430
+  itemId: 1298
   indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 1875398704}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 847247473}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &847247590
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19841,22 +19861,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 847247219}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 616cd37e21c7645c58a89edf5abee56f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 454
+  itemId: 1299
   indentLevel: 0
-  text: West door
-  description: 
-  targetBlock: {fileID: 847247232}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  duration: 1
+  amount: {x: 1, y: 1}
+  waitUntilFinished: 0
 --- !u!114 &847247604
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22249,7 +22261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -716.6051
     y: 1562.8174
-    width: 148.03925
+    width: 146.15382
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22487,7 +22499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1049.5741
     y: 1450.6498
-    width: 138.23532
+    width: 136.53845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23107,7 +23119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1533.1147
     y: 1607.3635
-    width: 138.23532
+    width: 136.53845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25688,7 +25700,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -81.266785
     y: 1247.8938
-    width: 138.23532
+    width: 136.53845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27410,7 +27422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -305.77887
     y: 1411.3019
-    width: 146.07846
+    width: 144.23074
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30514,7 +30526,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1737.072
     y: 1770.5657
-    width: 136.27454
+    width: 134.61537
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32192,8 +32204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -831.55743
-    y: 1975.0269
+    x: -912.3795
+    y: 1907.9031
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -32531,8 +32543,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -669.9682
-    y: 1969.3536
+    x: -738.4615
+    y: 1936.4767
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -34994,7 +35006,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -813.45154
     y: 1392.1855
-    width: 124.50982
+    width: 123.07691
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38017,6 +38029,52 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &847248272
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847247219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -804.91656
+    y: 2115.0698
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 1301
+  blockName: Level 3
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &847248273
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847247219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1300
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 515016843}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!1 &863518562
 GameObject:
   m_ObjectHideFlags: 0
