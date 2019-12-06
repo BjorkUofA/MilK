@@ -31,8 +31,6 @@ ScriptsOnlyBuild:
     - Fungus.If
     - Fungus.InfoText
     - Fungus.IntegerVariable
-    - Fungus.Jump
-    - Fungus.Label
     - Fungus.Localization
     - Fungus.LuaBindings
     - Fungus.LuaEnvironment
@@ -64,7 +62,6 @@ ScriptsOnlyBuild:
     - Fungus.Writer
     - Fungus.WriterAudio
     - MainMenu
-    - NewBehaviourScript
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -374,8 +371,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11302}
     - Class: 114
-      Script: {instanceID: 11328}
-    - Class: 114
       Script: {instanceID: 11390}
     - Class: 114
       Script: {instanceID: 11466}
@@ -400,13 +395,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12262}
     - Class: 114
-      Script: {instanceID: 12284}
-    - Class: 114
       Script: {instanceID: 12292}
     - Class: 114
       Script: {instanceID: 12378}
-    - Class: 114
-      Script: {instanceID: 12380}
     - Class: 114
       Script: {instanceID: 12396}
     - Class: 114
@@ -431,8 +422,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12728}
     - Class: 114
       Script: {instanceID: 12800}
-    - Class: 114
-      Script: {instanceID: 99856}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2314,19 +2303,19 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 1f76ea5884b6181417b2956f7198bc58
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Fungus
-    className: MoveLean
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NewBehaviourScript
+  - hash:
+      serializedVersion: 2
+      Hash: 1f76ea5884b6181417b2956f7198bc58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Fungus
+    className: MoveLean
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/New Scene.unity
-  playerPath: C:/Users/bofen/Desktop/Prototype/MilK.exe
+  playerPath: C:/Users/bofen/Desktop/1312313/MilK.exe
