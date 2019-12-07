@@ -3,7 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp-Editor.dll:
     - Fungus.EditorUtils.BlockEditor
     - Fungus.EditorUtils.BlockInspector
-    - Fungus.EditorUtils.EventHandlerEditor
     - Fungus.EditorUtils.FlowchartWindow
     - Fungus.EditorUtils.FungusEditorResources
     Assembly-CSharp.dll:
@@ -13,7 +12,6 @@ ScriptsOnlyBuild:
     - Fungus.Call
     - Fungus.Character
     - Fungus.Clickable2D
-    - Fungus.CommandCopyBuffer
     - Fungus.Comment
     - Fungus.CustomTag
     - Fungus.DialogInput
@@ -78,7 +76,6 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -2322,4 +2319,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/New Scene.unity
-  playerPath: C:/Users/bofen/Pictures/New folder/MilK.exe
+  playerPath: C:/Users/bofen/Pictures/FinalGame/MilK.exe
